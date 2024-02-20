@@ -19,6 +19,7 @@
 }
 
 .modal-content {
+    overflow: scroll;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -171,7 +172,8 @@
 }
 
 .modal__password-seen-btn {
-    width: 40%;
+    
+    min-width: 40%;
     background: rgb(67, 130, 181);
     padding: 10px 20px;
     border-radius: 24px;
