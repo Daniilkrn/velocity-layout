@@ -1,0 +1,96 @@
+.tabsec {
+    width: 100%;
+    background: rgb(255, 255, 255);
+    padding: 80.02px 0px 80.33px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tabsec-head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 73px;
+}
+
+.tabsec-title {
+    margin-bottom: 17px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 5px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.tabsec-desc {
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(142, 142, 156);
+    font-family: Open Sans;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 3px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.tadsec-items.container-main {
+    margin-bottom: 52px;
+    justify-content: center;
+}
+
+.tadsec-items__btn:not(:last-child){
+    margin-right: 16px;
+}
+
+.tadsec-items__btn{
+    border-radius: 4px;
+    background: rgb(146, 160, 173);
+    color: rgb(255, 255, 255);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 1px 30px;
+    box-sizing: border-box;
+}
+
+.tadsec-items__btn--active {
+    background: rgb(46, 128, 182);
+}
+
+.tadsec-items__image {
+    margin-bottom: 16px;
+}
+
+.tabsec-sub__title {
+    color: rgb(103, 103, 112);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 31px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 14px;
+}
+
+.tabsec-sub__desc {
+    color: rgb(106, 133, 156);
+    font-family: Open Sans;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.tadsec-items__btn:hover {
+    opacity: 0.7;
+}

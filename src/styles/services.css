@@ -1,0 +1,110 @@
+.services {
+    width: 100%;
+    background: rgb(25, 32, 36);
+    padding: 77.98px 0px 65px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.services-head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.services-items__img {
+    margin-bottom: 20px;
+}
+
+.services-items__title {
+    margin-bottom: 23px;
+
+    color: rgb(255, 255, 255);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 7px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.services-items__desc {
+    color: rgb(255, 255, 255);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 0px 16px 17px 16px;
+}
+
+.services-items__btn-more {
+    margin-bottom: 15px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 4px;
+    padding: 10px 31px;
+    color: rgb(255, 255, 255);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.services-items__btn-more:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.services-items__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.services-items__link:not(:last-child){
+    margin-right: 20px;
+}
+
+.services-items__link--active {
+    background: rgba(97, 97, 205, 0.5);
+}
+
+.services-title {
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(255, 255, 255);
+    font-family: Open Sans;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 17px;
+}
+
+.services-desc {
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(232, 232, 232);
+    font-family: Open Sans;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 3px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.about-items__link:hover {
+    background: rgba(232, 232, 232, 0.7);
+    border: 1px solid rgb(184, 212, 237);
+}

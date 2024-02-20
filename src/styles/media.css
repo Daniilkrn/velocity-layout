@@ -1,0 +1,118 @@
+@media screen and (max-width: 960px) {
+    .container-main {
+        width: 100%;
+        padding: 0px 16px;
+    }
+
+    .services-items, .about-items {
+        flex-direction: column;
+    }
+
+    .about-items__link {
+        margin: 20px 0px;
+    }
+
+    .tadsec-items__image {
+        width:100%;
+    }
+
+    .footer-content {
+        grid-template-columns: 1fr 1fr; 
+        grid-template-rows: 1fr 1fr; 
+        grid-gap: 30px;
+    }
+
+    .useful-links__link::after {
+        width:100%
+    }
+    
+    .about-items__link:not(:last-child) {
+        margin-right: 0px;
+    }
+
+    .tabsec {
+        padding: 80.02px 16px 80.33px 16px
+    }
+}
+
+@media screen and (max-width: 620px) {
+
+    .header-logo {
+        margin-bottom: 0px;
+    }
+
+    .footer-content {
+        /* grid-template-columns: 1fr; 
+        grid-template-rows: 1fr 1fr 1fr; 
+        grid-gap: 30px; */
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* .social-links__item {
+        background: red;
+    } */
+
+    .social-links__item-text::after {
+        width:100%;
+        min-width: none !important;
+    }
+
+    .footer-about, .footer-useful, .footer-content > div:not(:last-child) {
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width: 480px){
+
+    .header-logo {
+        margin-bottom: 0px;
+        line-height: 70%;
+    }
+
+    .services-items__img {
+        width: 100%;
+    }
+
+    .tadsec-items {
+        flex-wrap: wrap;
+    }
+
+    .tadsec-items__btn{
+        width: 100%;
+    }
+
+    .tadsec-items__btn:not(:last-child){
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+
+    .tadsec-items__btn{
+        padding: 10px 30px;
+    }
+}
+
+@media screen and (max-width: 410px){
+    .header-content__menu-links {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .header-content__menu-links a:not(:last-child){
+        margin-right: 0px;
+        margin-bottom: 26px;
+    }
+    
+}
+
+@media screen and (max-width: 360px){
+    .header-menu{
+        padding: 0px;
+    }
+
+    .header-logo__content {
+        font-size: 20px;
+    }
+}
