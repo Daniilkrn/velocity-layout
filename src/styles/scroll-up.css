@@ -1,0 +1,28 @@
+.scroll-up {
+    z-index: 131;
+    cursor: pointer;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background: rgb(212, 28, 28);
+    height: 48px;
+    width: 48px;
+    margin: 20px;
+    border-radius: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.scroll-up:hover {
+    opacity: 0.7;
+}
+
+.scroll-up__svg {
+    text-align: center;
+    display: inline;
+}
+
+.scroll-up--active {
+    display: flex;
+}

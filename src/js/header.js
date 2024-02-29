@@ -2,13 +2,6 @@ const menuLinks = document.querySelectorAll('.menu-link');
 const contact = document.querySelector('.menu-link.contact-link');
 const home = document.querySelector('.menu-link.home-link');
 
-// const tabSecAnchor = document.querySelector('.tabsec') 
-// const moreHeaderLink = document.querySelector('.more-link')
-
-// document.addEventListener('click', (e) => {
-//     return getQueryAll(`${e.target.className}`, e.target)
-// })
-
 contact.addEventListener('click', () => setPage(contact))
 index.addEventListener('click', () => setPage(home))
 
@@ -20,7 +13,7 @@ function setPage (selector) {
         return window.location.href = `../../${selector.id}.html`
     }
 
-    window.location.href = `./src/pages/${selector.id}.html`
+    window.location.href = `./${selector.id}.html`
 }
 
 function getQueryAll(selector, targetEl) {
