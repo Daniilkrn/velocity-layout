@@ -102,7 +102,7 @@ class Slider {
 
             rightBtn.classList.toggle('right--active', true)
             
-            // sliderArea.classList.toggle('transition-right', true)
+            sliderArea.classList.toggle('transition-right', true)
 
             rightBtn.addEventListener('animationend', () => {
                 rightBtn.classList.toggle('right--active', false)

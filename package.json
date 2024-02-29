@@ -1,5 +1,5 @@
 {
-  
+  "homepage": "https://daniilkrn.github.io/velocity-layout/",
   "main": "index.js",
   
   "scripts": {
@@ -14,7 +14,9 @@
   "start": "webpack serve",
   
     
-  "clear": "rd /s /q build"
+  "clear": "rd /s /q build",
+
+  "deploy": "gh-pages -d build"
   
   },
   
