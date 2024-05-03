@@ -13,7 +13,7 @@ function setPage (selector) {
         return window.location.href = `../../${selector.id}.html`
     }
 
-    window.location.href = `./${selector.id}.html`
+    window.location.href = `./velocity-layout/${selector.id}.html`
 }
 
 function getQueryAll(selector, targetEl) {
