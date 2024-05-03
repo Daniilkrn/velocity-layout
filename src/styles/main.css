@@ -714,6 +714,11 @@ svg {
     letter-spacing: 0%;
     text-align: center;
     margin-bottom: 14px;
+    display: none;
+}
+
+.tabsec-sub__title.visible {
+    display: block;
 }
 
 .tabsec-sub__desc {
@@ -724,6 +729,11 @@ svg {
     line-height: 25px;
     letter-spacing: 0%;
     text-align: center;
+    display: none;
+}
+
+.tabsec-sub__desc.visible {
+    display: block;
 }
 
 .tadsec-items__btn:hover {
